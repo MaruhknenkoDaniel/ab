@@ -1,0 +1,170 @@
+body,html {
+    background-color: #067d7d;
+    height: 100%;
+    margin: 0;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+li {
+    display: block;
+    padding: 0 20px;
+    color: #fff;
+    font-size: 25px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    transition: .5s;
+}
+
+li a {
+    text-decoration: none;
+    color: #fff;
+    transition: .5s;
+    padding: 10px;
+}
+
+ul:hover li a {
+    filter: blur(5px);
+}
+
+ul:hover li a:hover {
+    font-size: 30px;
+    filter: blur(0px);
+    background-color: #ede739;
+}
+img{
+    width: 90px;
+
+}
+* {margin: 0; padding: 0;}
+
+.content {
+    display: flex;
+    margin: 100px 50px 50px 50px;
+    font-family: sans-serif;
+    color: #fff;
+}
+#curPlyr{
+
+    padding: 0 20px;
+    color: #fff;
+    font-size: 25px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    transition: .5s;
+}
+#area {
+    width: 156px;
+    border: 1px solid #fff;
+    margin: 0 auto;
+    font-size: 25px;
+    
+}
+
+.cell {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    display: inline-block;
+    font-size: 26px;
+    border: 1px solid #fff;
+    cursor: pointer;
+    vertical-align: middle;
+    transition: background .1s;
+}
+
+.cell:hover {
+    background-color: #F1F1F1;
+}
+
+.currentPlayer {
+    width: 140px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+.stat {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    color: #fff;
+}
+
+.stat table {
+    border-collapse: collapse;
+    color: #fff;
+}
+
+.stat table, .stat th, .stat td {
+    border: 1px solid #fff;
+    padding: 5px;
+    text-align: center;
+}
+.ab{
+    text-align: center;
+    padding: 0 20px;
+    color: #fff;
+    font-size: 25px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    transition: .5s;
+}
+.footer,
+  .push {
+    height: 50px;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+  .footer,.push {
+    height: auto;
+  }
+  p {
+    margin: 20px 0 0 0;
+    text-align: center;
+  }
+  footer {
+    background: #005555;
+    color: white;
+    line-height: 50px;
+
+    text-align: center;
+  }
+  img{
+      width: 50px;
+      height: 50px;
+  }
+  .img1{
+    width: 50px;
+    height: 50px;
+}
+.img2{
+    width: 50px;
+    height: 50px;
+}
+
+.f-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.f-image img{
+    margin: 20px;
+}
